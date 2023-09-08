@@ -5,7 +5,7 @@ public class PigLatin{
     Scanner scan = new Scanner(System.in);
     len = phrase.length();
     String phrase = "";
-    word.substring(i, i+1);
+    word.substring(i, i+1);//up to but not including i +1
 
     }
 }
