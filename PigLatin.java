@@ -13,13 +13,14 @@ public class PigLatin{
     else {
         char firstLetter = phrase[0];
     for(int i = 0; i < len; i++){
-        phrase[i] = phrase [i+1]；
+        char placeHolder = phrase[i+1];
+        phrase[i] = placeHolder;
     }
     phrase = phrase + firstLetter + "ay";
     System.out.print(phrase);
     }
 
-    phrase.substring(i, i+1);//up to but not including i +1
+    //phrase.substring(i, i+1);//up to but not including i +1
 
     }
 }
