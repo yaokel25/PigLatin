@@ -6,8 +6,15 @@ public class PigLatin{
     System.out.print("Phrase: ");
     String phrase = scan.nextLine();
     int len = phrase.length();
-    if (phrase[0] = a || phrase[0])
-    phrase.substring(i, i+1);//up to but not including i +1
+    String firstLetter = phrase.substring(0,1);
+    if (firstLetter == "a" || firstLetter == "e" || firstLetter == "o" || firstLetter == "u" || firstLetter == "i"){
+    phrase = phrase.substring(1);
+    phrase = phrase + firstLetter;
+
+    }
+    else{
+        phrase = phrase.substring(1);
+        phrase = phrase + firstLetter + "ay";
 
     }
 }
